@@ -1,0 +1,21 @@
+ platform :ios, '8.0'
+
+target 'SampleApp' do
+  use_frameworks!
+
+# SWITCH TO REMOTE PATH FOR POD INSTALL. THEN ATTEMPT TO RUN SAMPLE APP TO SEE BUILD ERROR.
+
+  pod 'SDKWithVungle/Vungle', :git => 'git@github.com:bryanboyko/PodFrameworkWithVungleDependency'
+#  pod 'SDKWithVungle/Vungle', :path => "../.."
+
+  target 'SampleAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SampleAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

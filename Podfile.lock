@@ -1,0 +1,16 @@
+PODS:
+  - VungleSDK-iOS (5.4.0)
+
+DEPENDENCIES:
+  - VungleSDK-iOS (= 5.4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - VungleSDK-iOS
+
+SPEC CHECKSUMS:
+  VungleSDK-iOS: bf5bb77eedc065e28c34d8613b027ef9cc3053c2
+
+PODFILE CHECKSUM: b172be929b6630720c7e103fec93c2899a78ec18
+
+COCOAPODS: 1.5.0.beta.1
