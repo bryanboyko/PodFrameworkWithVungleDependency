@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0611FF20FBFAD21A746AA495DCF4886E /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = F5485ED2576ACD53FE72BEC32D388AF4 /* module.modulemap */; };
-		0D9609166B0077AB51A5D6B724BB1E63 /* SDKWithVungle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2645BF22E4268F7BEF3D388355F5D018 /* SDKWithVungle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9609166B0077AB51A5D6B724BB1E63 /* SDKWithVungle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8887FF06DEE059A5C952D894800107D5 /* SDKWithVungle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		160BE25CFE955D6714C07D9D32C901E1 /* Pods-SampleAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C1208E70E1CACE38A83BD32A16496 /* Pods-SampleAppUITests-dummy.m */; };
 		4A17293063F6CC5C8F89B5FFF05C6826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4AA2F7155086C81413CAF3E72C9DE6B4 /* SDKWithVungle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F070AA5ABEA11F48BA4B2FB119CC7142 /* SDKWithVungle-dummy.m */; };
 		5F5C0FD09705B6D046586279A916D14A /* Pods-SampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2C21194BEE61BE1DE202B0206224BB /* Pods-SampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F8507943452A03279128186EA3CD4EC /* Pods-SampleAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4088797D362D00A6548EA1DBA399A8A /* Pods-SampleAppTests-dummy.m */; };
 		618B6E36D685B86681884502A07EAFC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		654EAA75F3417809ECE305B8B4363F06 /* SwiftWithVungle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D52B025AE6C712DBC18719E12BC1F /* SwiftWithVungle.swift */; };
 		795483880314964421AED8D826FE85B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		945C14356C2CB1CE18DC39EDBA1E2195 /* Pods-SampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA2C7B2BEB35D822A376A7F940A49D /* Pods-SampleApp-dummy.m */; };
 		9DC00A4FCC0FD3082E92260867658FA1 /* Pods-SampleAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D53E0582C529986F4A31E3583F14E9A7 /* Pods-SampleAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE983CBD67BA9737BD60F3B18AD38529 /* Pods-SampleAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB4B9495BAA33B61899924AAB8A6181 /* Pods-SampleAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D208AD7767832C71FF4131A76ACDE064 /* SDKWithVungle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC37259097DAD3ADC6BBE90DF18EBD3 /* SDKWithVungle-dummy.m */; };
+		B9C037294589371F4991C91E06D1BBE5 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6136FAAD37B50C53DDDB3D5533923 /* module.modulemap */; };
+		D1A0131976ACAF51214D0B19708FD73C /* SwiftWithVungle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1786187C245DDE5BDC4DF10E7B19611A /* SwiftWithVungle.swift */; };
 		F7A3F62E56E265ABF3A66AC0A6A7306B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,37 +37,33 @@
 		029E9C931CD9AD20A8FB4F535BD5AF0A /* Pods-SampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleApp.modulemap"; sourceTree = "<group>"; };
 		0B5475526C6F95BA072EB7AFBE623D7A /* Pods-SampleAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleAppTests-frameworks.sh"; sourceTree = "<group>"; };
 		103EEE322ED952D2B145BFB83F8EEFA6 /* Pods-SampleAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleAppTests.modulemap"; sourceTree = "<group>"; };
-		119727957F87AF7BCD5BBEC56559D9A5 /* SDKWithVungle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWithVungle.xcconfig; sourceTree = "<group>"; };
-		162B1A04F9875A2789FDD74F2F88D05E /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		1786187C245DDE5BDC4DF10E7B19611A /* SwiftWithVungle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftWithVungle.swift; path = SDKWithVungle/ThirdParty/Vungle/SwiftWithVungle.swift; sourceTree = "<group>"; };
 		18C8FF24F2006AB7EF7A8E5542ECA336 /* Pods-SampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-frameworks.sh"; sourceTree = "<group>"; };
 		1FDC9BD35F9934BE9968BFBB86E5390B /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleApp.framework; path = "Pods-SampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2645BF22E4268F7BEF3D388355F5D018 /* SDKWithVungle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWithVungle-umbrella.h"; sourceTree = "<group>"; };
 		2A37EB8811831EB315733A6A33079438 /* Pods-SampleAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleAppTests-resources.sh"; sourceTree = "<group>"; };
+		2FD6136FAAD37B50C53DDDB3D5533923 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = SDKWithVungle/ThirdParty/Vungle/ModuleMap/module.modulemap; sourceTree = "<group>"; };
 		30DB6AB95A9ED6B60E7E7DCB48693CB3 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		319D38641B3B3AE65EA87FF56F2868AA /* Pods-SampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-resources.sh"; sourceTree = "<group>"; };
 		324B42C0CC64E2FBBCEEB7B344EA13DA /* Pods-SampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		369F8A51EC30FAEFDE9645C8C4E52FAD /* Pods-SampleAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleAppUITests.modulemap"; sourceTree = "<group>"; };
 		39E68260475A39DB7B1CEDD7361E136D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EC37259097DAD3ADC6BBE90DF18EBD3 /* SDKWithVungle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKWithVungle-dummy.m"; sourceTree = "<group>"; };
 		406A47B5F0A357D0FB7BC5401AA70310 /* Pods-SampleAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4432DC2E12F9E74AA82406BBDDFCA970 /* SDKWithVungle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDKWithVungle.framework; path = SDKWithVungle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		450771238FC73E629E839A8E98B2D73E /* Pods-SampleAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F504322F91B2451719FECC4DE553634 /* SDKWithVungle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWithVungle-prefix.pch"; sourceTree = "<group>"; };
-		713D52B025AE6C712DBC18719E12BC1F /* SwiftWithVungle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftWithVungle.swift; path = SDKWithVungle/ThirdParty/Vungle/SwiftWithVungle.swift; sourceTree = "<group>"; };
 		7258380EF0B5FB5020C446B0DD984B27 /* Pods-SampleAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		76CA2C7B2BEB35D822A376A7F940A49D /* Pods-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApp-dummy.m"; sourceTree = "<group>"; };
-		77EFD824055596919FEE9426893616E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		79AD36A63A7EDF6F9452B2090DBFFC88 /* SDKWithVungle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKWithVungle.modulemap; sourceTree = "<group>"; };
+		8887FF06DEE059A5C952D894800107D5 /* SDKWithVungle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWithVungle-umbrella.h"; sourceTree = "<group>"; };
 		8B61CA4038B01E96E750054AE461420B /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8F28E0AC2AACD8B46F2749A249C55F1E /* Pods-SampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		913C1208E70E1CACE38A83BD32A16496 /* Pods-SampleAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleAppUITests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		954C20B60CC87A91ED6BA274CF48D7D4 /* Pods_SampleAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleAppUITests.framework; path = "Pods-SampleAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96577FCF36310F9964FAF9077CA453E7 /* SDKWithVungle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKWithVungle.xcconfig; sourceTree = "<group>"; };
 		A2384DEB80C0ADB2210EE901BEBC312D /* Pods-SampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A271ADCC40D9D2E18E2F95E142577569 /* Pods-SampleAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A48E88D4B3EAF8817431DCF9D00D9AA6 /* SDKWithVungle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SDKWithVungle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF7FD9792268AE065D2768684E02780A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C4277F5622771F5B047E8D154D7448C8 /* SDKWithVungle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKWithVungle.modulemap; sourceTree = "<group>"; };
+		ABE953E6BD74EA01594177230958BFE3 /* SDKWithVungle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKWithVungle-prefix.pch"; sourceTree = "<group>"; };
 		C54A94B4133828871667CF01E2F91C72 /* Pods-SampleAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleAppUITests-resources.sh"; sourceTree = "<group>"; };
 		C94E78CD51BC98A105A86F225E8ACA09 /* Pods_SampleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleAppTests.framework; path = "Pods-SampleAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3D2B12D5488818948CC57B229AA843 /* Pods-SampleAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -76,10 +72,11 @@
 		D53E0582C529986F4A31E3583F14E9A7 /* Pods-SampleAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleAppTests-umbrella.h"; sourceTree = "<group>"; };
 		DC2C21194BEE61BE1DE202B0206224BB /* Pods-SampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleApp-umbrella.h"; sourceTree = "<group>"; };
 		DEB4B9495BAA33B61899924AAB8A6181 /* Pods-SampleAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		E0D47C46C666F22FB5C83D70E9C14EBE /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
 		E18ABEA67A77B649E3940C72C357A75B /* Pods-SampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		E4088797D362D00A6548EA1DBA399A8A /* Pods-SampleAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleAppTests-dummy.m"; sourceTree = "<group>"; };
+		F070AA5ABEA11F48BA4B2FB119CC7142 /* SDKWithVungle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKWithVungle-dummy.m"; sourceTree = "<group>"; };
 		F40B5D5263A55FCB2F952CC44AF922F1 /* Pods-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		F5485ED2576ACD53FE72BEC32D388AF4 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		FC454ED6434C97E376843B0E07857945 /* Pods-SampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,44 +134,22 @@
 			path = "Target Support Files/Pods-SampleAppUITests";
 			sourceTree = "<group>";
 		};
-		011A91A2CE64DF3C81DCE8A06438BA38 /* Pod */ = {
+		1691902266E1623A294DC686A5CE2179 /* VungleSDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				77EFD824055596919FEE9426893616E6 /* LICENSE */,
-				AF7FD9792268AE065D2768684E02780A /* README.md */,
-				A48E88D4B3EAF8817431DCF9D00D9AA6 /* SDKWithVungle.podspec */,
+				5A272A1B56DFAD3D01F1C3C1AEB0710C /* Frameworks */,
 			);
-			name = Pod;
+			name = "VungleSDK-iOS";
+			path = "VungleSDK-iOS";
 			sourceTree = "<group>";
 		};
-		1D39322C7ABE4B9A1C0F09BB1C2DEBAD /* Pods */ = {
+		1D7FAAF4E27E9A9A6F644A9B42A49E80 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F225B7535532199039DD23669E2F68B9 /* VungleSDK-iOS */,
+				B05DB4A01E57FAA6BD3095CEC70CB10C /* SDKWithVungle */,
+				1691902266E1623A294DC686A5CE2179 /* VungleSDK-iOS */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		2325BCA644050ABECB4091269E546356 /* ModuleMap */ = {
-			isa = PBXGroup;
-			children = (
-				F5485ED2576ACD53FE72BEC32D388AF4 /* module.modulemap */,
-			);
-			name = ModuleMap;
-			path = SDKWithVungle/ThirdParty/Vungle/ModuleMap;
-			sourceTree = "<group>";
-		};
-		33BD2F09B166F126D27A5BC058ADF019 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C4277F5622771F5B047E8D154D7448C8 /* SDKWithVungle.modulemap */,
-				119727957F87AF7BCD5BBEC56559D9A5 /* SDKWithVungle.xcconfig */,
-				3EC37259097DAD3ADC6BBE90DF18EBD3 /* SDKWithVungle-dummy.m */,
-				6F504322F91B2451719FECC4DE553634 /* SDKWithVungle-prefix.pch */,
-				2645BF22E4268F7BEF3D388355F5D018 /* SDKWithVungle-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "SampleApps/SampleApp/Pods/Target Support Files/SDKWithVungle";
 			sourceTree = "<group>";
 		};
 		3CB03CCC46D630C594FE5AEB8657A0B4 /* Pods-SampleAppTests */ = {
@@ -193,6 +168,14 @@
 			);
 			name = "Pods-SampleAppTests";
 			path = "Target Support Files/Pods-SampleAppTests";
+			sourceTree = "<group>";
+		};
+		5A272A1B56DFAD3D01F1C3C1AEB0710C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D47C46C666F22FB5C83D70E9C14EBE /* VungleSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7640CFADBE5BE254C889A938CEE80AAE /* Pods-SampleApp */ = {
@@ -217,9 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D2DF9EF68C0D5C69EFB4524A59594EDE /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1D39322C7ABE4B9A1C0F09BB1C2DEBAD /* Pods */,
+				1D7FAAF4E27E9A9A6F644A9B42A49E80 /* Pods */,
 				878973DC2A8C37E2DBD08E8D00CB39D3 /* Products */,
 				94D2EFB4B3372B5D0370871B982B0102 /* Targets Support Files */,
 			);
@@ -246,12 +228,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A0EB8E3CCB0FD1A5570BBDDE6A922C6A /* Frameworks */ = {
+		B05DB4A01E57FAA6BD3095CEC70CB10C /* SDKWithVungle */ = {
 			isa = PBXGroup;
 			children = (
-				162B1A04F9875A2789FDD74F2F88D05E /* VungleSDK.framework */,
+				BE9226C05DADD6A9AB3E1400FC33392E /* Support Files */,
+				F04D718ED86456E555AD169D3A713B97 /* Vungle */,
 			);
-			name = Frameworks;
+			name = SDKWithVungle;
+			path = SDKWithVungle;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -262,23 +246,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA5FF2BDEBA02ADFEEF576291CCBC098 /* SDKWithVungle */ = {
+		BE9226C05DADD6A9AB3E1400FC33392E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				011A91A2CE64DF3C81DCE8A06438BA38 /* Pod */,
-				33BD2F09B166F126D27A5BC058ADF019 /* Support Files */,
-				E188FC43AC9CFCDFEAEC081EB446CBFC /* Vungle */,
+				79AD36A63A7EDF6F9452B2090DBFFC88 /* SDKWithVungle.modulemap */,
+				96577FCF36310F9964FAF9077CA453E7 /* SDKWithVungle.xcconfig */,
+				F070AA5ABEA11F48BA4B2FB119CC7142 /* SDKWithVungle-dummy.m */,
+				ABE953E6BD74EA01594177230958BFE3 /* SDKWithVungle-prefix.pch */,
+				8887FF06DEE059A5C952D894800107D5 /* SDKWithVungle-umbrella.h */,
 			);
-			name = SDKWithVungle;
-			path = ../../..;
-			sourceTree = "<group>";
-		};
-		D2DF9EF68C0D5C69EFB4524A59594EDE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CA5FF2BDEBA02ADFEEF576291CCBC098 /* SDKWithVungle */,
-			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/SDKWithVungle";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -289,22 +267,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E188FC43AC9CFCDFEAEC081EB446CBFC /* Vungle */ = {
+		F04D718ED86456E555AD169D3A713B97 /* Vungle */ = {
 			isa = PBXGroup;
 			children = (
-				713D52B025AE6C712DBC18719E12BC1F /* SwiftWithVungle.swift */,
-				2325BCA644050ABECB4091269E546356 /* ModuleMap */,
+				2FD6136FAAD37B50C53DDDB3D5533923 /* module.modulemap */,
+				1786187C245DDE5BDC4DF10E7B19611A /* SwiftWithVungle.swift */,
 			);
 			name = Vungle;
-			sourceTree = "<group>";
-		};
-		F225B7535532199039DD23669E2F68B9 /* VungleSDK-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A0EB8E3CCB0FD1A5570BBDDE6A922C6A /* Frameworks */,
-			);
-			name = "VungleSDK-iOS";
-			path = "VungleSDK-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,7 +335,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CE61568CD873B6AD04D49440C45927F /* Build configuration list for PBXNativeTarget "SDKWithVungle" */;
 			buildPhases = (
-				DDD855B753A1FF1DAE30FA34BCE1F88A /* Sources */,
+				64972A312B175C8C1154E63D1B624844 /* Sources */,
 				0DC51790B2CC7B9208FC08251BD656C8 /* Frameworks */,
 				A3AD61712BDC96B4C3D4277DF967C017 /* Headers */,
 			);
@@ -444,6 +413,16 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		64972A312B175C8C1154E63D1B624844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C037294589371F4991C91E06D1BBE5 /* module.modulemap in Sources */,
+				4AA2F7155086C81413CAF3E72C9DE6B4 /* SDKWithVungle-dummy.m in Sources */,
+				D1A0131976ACAF51214D0B19708FD73C /* SwiftWithVungle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B865AC466025E5EBC38357C6ED1F37EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,16 +436,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F8507943452A03279128186EA3CD4EC /* Pods-SampleAppTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDD855B753A1FF1DAE30FA34BCE1F88A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0611FF20FBFAD21A746AA495DCF4886E /* module.modulemap in Sources */,
-				D208AD7767832C71FF4131A76ACDE064 /* SDKWithVungle-dummy.m in Sources */,
-				654EAA75F3417809ECE305B8B4363F06 /* SwiftWithVungle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,7 +728,7 @@
 		};
 		C4CBCEE1551A8CB340680F7C03A7D158 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 119727957F87AF7BCD5BBEC56559D9A5 /* SDKWithVungle.xcconfig */;
+			baseConfigurationReference = 96577FCF36310F9964FAF9077CA453E7 /* SDKWithVungle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -791,7 +760,7 @@
 		};
 		CB6CDDC668C29C37C53846E3ECBADA9D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 119727957F87AF7BCD5BBEC56559D9A5 /* SDKWithVungle.xcconfig */;
+			baseConfigurationReference = 96577FCF36310F9964FAF9077CA453E7 /* SDKWithVungle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
